@@ -16,3 +16,24 @@ h1, h2, h3 {
     font-family: "Just Another Hand", cursive, Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
 }
+
+.site-nav {
+    background-color: #1d1b18;
+    color: #fbf8f3;
+}
+
+.site-nav ul {
+    list-style: none;
+    display: grid;
+    grid-template: auto / auto auto auto auto auto;
+    gap: 34px;
+    width: max-content;
+    margin: 0px auto;
+    padding: 16px 24px;
+}
+
+.site-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
